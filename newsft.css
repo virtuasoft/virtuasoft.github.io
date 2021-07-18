@@ -16,7 +16,7 @@ body{
 	height:100%;
 }
 img{
-	vertical-align:middle;
+	vertical-align:top;
 	}
 	
 ul {
@@ -43,6 +43,10 @@ li a {
   transition: color 0.5s;
   color: red;
 }
+.orange a:hover {
+  transition: color 0.5s;
+  color: orange;
+}
 .yellow a:hover {
   transition: color 0.5s;
   color: yellow;
@@ -55,7 +59,6 @@ li a {
   transition: color 0.5s;
   color: aqua;
 }
-
 
 
 .active {
