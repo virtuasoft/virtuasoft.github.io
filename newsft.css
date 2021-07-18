@@ -9,6 +9,9 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	position: fixed;
+	right: 0;
+	left: 0;
 }
 .real{
 	margin-left: 279px;
@@ -16,7 +19,7 @@ body{
 	height:100%;
 }
 img{
-	vertical-align:top;
+	vertical-align: top;
 	}
 	
 ul {
@@ -27,7 +30,7 @@ ul {
   background-color: #2d2b30;
   height: 100%;
   position: fixed;
-  overflow: auto;
+  top: 43.5px;
 }
 
 li a {
