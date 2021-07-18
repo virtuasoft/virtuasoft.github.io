@@ -85,7 +85,16 @@ li a {
 }
 
 
-.based a:hover {
+.based {
+	display: block;
+    color: white;
+    padding: 18px 16px;
+    text-decoration: none;
+    text-shadow: 1px 2px 5px black;
+}
+
+.pink a:hover {
 	transition: color 0.5s;
 	color: #FF0080;
+	cursor: pointer;
 }
