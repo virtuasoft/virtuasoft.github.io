@@ -6,8 +6,8 @@ body {
     font-style: italic;
     color: #FFFFFF;
 
-    background-color: #000000;
     background-image: url("sparkling.gif");
+    background-color: #000000;
 }
 
 #banner {
