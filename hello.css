@@ -1,0 +1,64 @@
+body {
+    overflow: hidden;
+
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bolder;
+    font-style: italic;
+    color: #FFFFFF;
+
+    background-color: #000000;
+    background-image: url("sparkling.gif");
+}
+
+#banner {
+    text-shadow: 3px 3px 3px black;
+}
+
+.right, .left, .box {
+    border: 3px solid white;
+    padding: 10px;
+    margin: 5px;
+    background: rgb(226,64,222);
+    background: linear-gradient(45deg, rgba(226,64,222,1) 0%, rgba(0,212,255,1) 100%);
+    opacity: 0.8;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.splash {
+    padding-top: 10%;
+    padding-bottom: 5px;
+    line-height: 80%;
+    text-align: center;
+}
+
+.splash h1 {
+    font-size: 50px;
+
+}
+
+.splash h2 {
+    font-size: 25px;
+}
+
+.detail {
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+
+.footer {
+    bottom:0%;
+    position:fixed;
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 0px;
+    right: 0px;
+}
